@@ -1,6 +1,6 @@
 //Variável para guardar o botão
 const botao = document.getElementById('tema');
-const icone = document.querySelector('i');
+const icone = botao.querySelector('i');
 //Busca na memória do navegador a opção que o usuário tinha escolhido
 const salvarTema = localStorage.getItem('theme');
 
